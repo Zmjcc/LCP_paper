@@ -1,0 +1,89 @@
+Loading cudnn7.6-cuda10.1/7.6.5.32
+  Loading requirement: cuda10.1/toolkit/10.1.243
+2021-08-12 17:41:50.854841: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+iteration:0
+2021-08-12 17:43:05.838304: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-08-12 17:43:06.144188: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:44:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 1.03TiB/s
+2021-08-12 17:43:06.144292: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-08-12 17:43:06.154057: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-08-12 17:43:06.160496: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-08-12 17:43:06.163204: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-08-12 17:43:06.415796: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-08-12 17:43:06.468716: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-08-12 17:43:06.492015: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-08-12 17:43:06.501080: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2021-08-12 17:43:06.502067: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-08-12 17:43:06.519173: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2500000000 Hz
+2021-08-12 17:43:06.521260: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5555685c3e70 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-08-12 17:43:06.521298: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-08-12 17:43:06.739817: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555568dc7650 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-08-12 17:43:06.739908: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100S-PCIE-32GB, Compute Capability 7.0
+2021-08-12 17:43:06.747175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:44:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 1.03TiB/s
+2021-08-12 17:43:06.747267: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-08-12 17:43:06.747327: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-08-12 17:43:06.747357: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-08-12 17:43:06.747387: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-08-12 17:43:06.747415: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-08-12 17:43:06.747444: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-08-12 17:43:06.747473: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-08-12 17:43:06.755842: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2021-08-12 17:43:06.755913: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-08-12 17:43:08.222535: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-08-12 17:43:08.222605: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0 
+2021-08-12 17:43:08.222617: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N 
+2021-08-12 17:43:08.228137: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30132 MB memory) -> physical GPU (device: 0, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:44:00.0, compute capability: 7.0)
+2021-08-12 17:43:09.042511: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-08-12 17:43:12.240050: I tensorflow/core/kernels/cuda_solvers.cc:180] Creating CudaSolver handles for stream 0x55555c7b86e0
+2021-08-12 17:43:12.240171: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-08-12 17:43:16.712917: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+iteration:1
+iteration:2
+iteration:3
+iteration:4
+iteration:5
+iteration:6
+iteration:7
+iteration:8
+iteration:9
+iteration:10
+iteration:11
+iteration:12
+iteration:13
+iteration:14
+iteration:15
+iteration:16
+iteration:17
+iteration:18
+iteration:19
+iteration:20
+iteration:21
+iteration:22
+iteration:23
+iteration:24
+iteration:25
+iteration:26
+iteration:27
+iteration:28
+iteration:29
+iteration:30
+iteration:31
+iteration:32
+iteration:33
+iteration:34
+iteration:35
+iteration:36
+iteration:37
+iteration:38
+iteration:39
+iteration:40
+iteration:41
+iteration:42
+iteration:43
+iteration:44
+iteration:45
+slurmstepd: error: *** JOB 61769 ON pgpu09 CANCELLED AT 2021-08-12T18:05:49 ***

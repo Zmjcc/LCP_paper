@@ -1,0 +1,2 @@
+2021-08-12 11:59:50.879842: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+slurmstepd: error: *** JOB 61657 ON pgpu06 CANCELLED AT 2021-08-12T11:59:51 ***
